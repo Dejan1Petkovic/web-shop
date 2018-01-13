@@ -7,7 +7,7 @@ var akcija = $('#akcija');
 var optLi = $('.optionLink');
 var template = $('#productTemplate').html();
 $.ajax({
-  url: 'https://raw.githubusercontent.com/Danilovesovic/shop/master/shop.json',
+  url: 'https://raw.githubusercontent.com/Dejan1Petkovic/shop-json/master/shop-master/shop.json',
   type: 'GET',
   dataType: 'json',
 })
