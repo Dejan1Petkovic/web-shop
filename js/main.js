@@ -21,7 +21,7 @@ $.ajax({
     mainRow.append(text);
   })
 })
-
+//
 optLi.on('click',function (event) {
   event.preventDefault();
   optLi.removeClass('active');
